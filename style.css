@@ -1,0 +1,25 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+
+    /* Center everything */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+
+    /* Yellow border */
+    border: 5px solid yellow;
+
+    padding: 20px 30px;
+    width: 400px;
+
+    /* Optional extras */
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    text-align: center;
+}
